@@ -19,7 +19,7 @@ This batch script demonstrates how a Windows machine can be infected and how mal
 infect.cmd
 ```
 
-The script requires an actual executable URL to be placed in the source at line 2 before it will function. In its current form it is a **template** — the `<download exe url>` placeholder must be replaced with a real payload URL.
+The script requires an actual executable URL to be placed in the source at line 2 before it will function. In its current form it is a **template** — the `<download exe url>` placeholder must be replaced with a real payload URL. also `<exe execution arguments>` must be replaced with exe execution arguments.
 
 ## License
 
