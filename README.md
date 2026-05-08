@@ -26,4 +26,4 @@ The script is a **template** — you must configure it before use:
 
 ## License
 
-GNU General Public License v3.0. See [LICENSE](LICENSE).
+GNU General Public License v3.0
