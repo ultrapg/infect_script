@@ -19,7 +19,10 @@ This batch script demonstrates how a Windows machine can be infected and how mal
 infect.cmd
 ```
 
-The script requires an actual executable URL to be placed in the source at line 2 before it will function. In its current form it is a **template** — the `<download exe url>` placeholder must be replaced with a real payload URL. also `<exe execution arguments>` must be replaced with exe execution arguments.
+The script is a **template** — you must configure it before use:
+
+1. **Payload URL** — Replace `<download exe url>` on line 2 with the URL of your test executable.
+2. **Execution arguments** — The script passes arguments to the payload via `-ArgumentList ''` (lines 6–9). Leave the quotes empty for no arguments, or fill them in (e.g., `-ArgumentList '--silent'`) if the payload needs them.
 
 ## License
 
