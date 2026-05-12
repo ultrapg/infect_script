@@ -21,8 +21,10 @@ infect.cmd
 
 The script is a **template** — you must configure it before use:
 
-1. **Payload URL** — Replace `<download exe url>` on line 2 with the URL of your test executable.
-2. **Execution arguments** — The script passes arguments to the payload via `-ArgumentList ''` (lines 6–9). Leave the quotes empty for no arguments, or fill them in (e.g., `-ArgumentList '--silent'`) if the payload needs them.
+| Variable | Description                                                                                      |
+| -------- | ------------------------------------------------------------------------------------------------- |
+| `dlurl`  | URL to download the exe (replace `<download exe url>`)                                |
+| `args`   | Arguments that are given to the exe (relace `<exe run args>` or leave empty) |
 
 ## License
 
